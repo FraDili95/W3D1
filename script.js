@@ -127,16 +127,16 @@ console.log( crazyDiff( 20 ) ); */
 
 
 
-/* SCRIVI QUI LA TUA RISPOSTA 
+// SCRIVI QUI LA TUA RISPOSTA 
 function codify( str ){
-    let add = "Code";
-    if( str.includes(add) && str[0] === "C" ){//se inizia con C ed la parola è presente ho la certezza che è all'inizio
+    let add = "code";
+    if( str.includes(add) && str[0] === "c" && str[1] === "o" && str[2] === "d" && str[3] === "e" ){//se inizia con C ed la parola è presente ho la certezza che è all'inizio
         return str;//bene stampa
     }else{
         return add.concat(str);//aggiungila
     }
 }
-console.log( codify( "maggiordiosnc" ) );*/
+console.log( codify( "cavallocode" ) );
 
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "check3and7" la quale accetta un numero intero positivo come parametro.
